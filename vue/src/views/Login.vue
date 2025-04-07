@@ -24,7 +24,7 @@
           <el-form-item>
             <el-button type="primary" style="width: 100%" @click="login">登 录</el-button>
           </el-form-item>
-          <div style="display: flex">
+          <div style="display: flex; white-space: nowrap;">
             <div style="flex: 1">还没有账号？请 <span style="color: #0f9876; cursor: pointer" @click="$router.push('/register')">注册</span></div>
             <div style="flex: 1; text-align: right"><span style="color: #0f9876; cursor: pointer" @click="handleForgetPass">忘记密码</span></div>
           </div>
